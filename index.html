@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type=text/css href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
@@ -17,20 +20,170 @@
 </head>
 
 <body>
-    <h1>My Dream Art Studio</h1>
 
-    <div class="container">
+
+    <br>
+    <br>
+    <div class="jumbotron p-2 border text-bg-light w-75 p-3" style="margin-left: 200px">
+        <h1 class="display-4">My Dream Art Studio</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+            attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger
+            container.</p>
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <ul class="nav justify-content-center fs-1 text">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled">FAQ</a>
+        </li>
+    </ul>
+
+    <div class="container w-75 p-3">
         <div class="row">
             <div class="col-md-3">
-                <img src="https://picsum.photos/id/237/200/300" alt="">
-
+                <div class="card" style="width: 18rem;">
+                    <img src="images/best-male-artists-under-25.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Justin Roth</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-9 bg-primary text-bg-success border border-danger">
-                <img src="https://picsum.photos/id/237/200/300" alt="">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/ellie-goulding-photo-u50.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Natalie Buck</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/femalartist.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Faith Needham</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="col-md-9 bg-warning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos necessitatibus esse exercitationem at
+                veniam doloribus, rem, obcaecati ex molestiae vel consequatur adipisci nihil quas possimus natus officia
+                repellat ut reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quam dolores
+                facilis? Possimus consectetur vel qui distinctio placeat reprehenderit ullam, facilis commodi animi
+                consequatur earum corporis excepturi, incidunt ut dolore? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nesciunt ipsum magni enim porro cupiditate quod fugiat rem minus, dolorum possimus?
+                Corporis porro temporibus ullam facere? Ipsum veritatis quibusdam dolor sit? Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Atque, earum magnam. Voluptas excepturi, at ipsam dolorum ullam in
+                incidunt, fugit pariatur non quis adipisci officia natus, deserunt ratione error. Eius. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Animi quo exercitationem iste ut asperiores, quia dolore
+                qui totam? Voluptatem harum assumenda nemo sunt? Minus laboriosam vero cumque sapiente eos dolores?
+            </p>
+            <div class="col-md-3 bg-primary">
+                <ul>
+                    <li>📞 555-5555</li>
+                    <li>👀</li>
+                    <li>✈</li>
+                    <li>📞 555-5555</li>
+                    <li>👀</li>
+                    <li>✈</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
+    <br>
+    <br>
 </body>
 
 </html>
