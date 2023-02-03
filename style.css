@@ -18,6 +18,11 @@ h1 {
   font-size: 50px;
 }
 
+#post {
+  font-size: 30px;
+  background-color: rosybrown;
+  text-align: center;
+}
 .nav {
   font-weight: 34px;
 }
